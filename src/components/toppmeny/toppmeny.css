@@ -1,0 +1,22 @@
+.hela-topmnenyn {
+    height: 80px;
+    width:100%;
+    position: fixed;
+    background-color:#9F8412;
+    top:0px;
+    opacity: 0.9;
+}
+
+.menyknapp-container-topp{
+    width:24%;
+    text-align: center;
+    border: 3px solid black;            
+    border-width: 0px 0px 0px 1px;
+
+    /*
+        border: 3px solid black;
+
+    */
+    height: 100%;
+    display: inline-block;
+}

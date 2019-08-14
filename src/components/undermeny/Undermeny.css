@@ -1,0 +1,19 @@
+.hela-undermenyn {
+    height: 14vh;
+    background-color:#9F8412;
+    position: fixed;
+    bottom:0px;
+    width:100%;
+}
+
+.menyknapp-container{
+    width:20%;
+    text-align: center;
+    /*
+        border: 3px solid black;
+
+    */
+    height: 100%;
+    display: inline-block;
+}
+
