@@ -25,7 +25,7 @@ const dennaManad = month[d.getMonth()];
 
 
 const testobjekt = {
-    beskrivnnig: 'detta är t.ex öppen förskola för bar n upp till 6 år',
+    beskrivnig: 'detta är t.ex öppen förskola för bar n upp till 6 år',
     prast: 'Präst Prästsson',
     musiker: 'musiker musikersson', 
     ovrigPersonal: 'Övrig Personal Personalsson',
@@ -34,12 +34,12 @@ const testobjekt = {
     titel: 'komfimader',
     plats: 'tulinge gård',
     farg: 'blå',
-    tid: 11.30, 
+    tid: '12.30', 
 
 }
 
 const testobjekt2 = {
-    beskrivnnig: 'detta är t.ex öppen förskola för bar n upp till 7 år',
+    beskrivnig: 'detta är t.ex öppen förskola för bar n upp till 7 år',
     prast: 'jan Prästsson',
     musiker: 'musiker musikersson', 
     ovrigPersonal: 'Övrig Personal Personalsson',
@@ -48,7 +48,7 @@ const testobjekt2 = {
     titel: 'komfimader',
     plats: 'tulinge gård',
     farg: 'röd',
-    tid: 11.30, 
+    tid: '13.30', 
 
 }
 

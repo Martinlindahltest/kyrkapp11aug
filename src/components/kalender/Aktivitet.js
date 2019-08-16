@@ -3,7 +3,7 @@ import './Aktivitet.css'
 
 export default function Aktivitet(props) {
 
-    let { beskrivnnig,
+    let { beskrivnig,
         prast,
         musiker,
         ovrigPersonal,
@@ -16,8 +16,14 @@ export default function Aktivitet(props) {
 
     return (
         <div className="aktivitetBlock">
-            Aktivitet
-            
+            <div className="tidsruta">{tid}</div> 
+            <div className="rutaTillHoger">
+            {beskrivnig} {prast} {musiker}  
+            {beskrivnig} {prast} {musiker}            
+            {beskrivnig} {prast} {musiker}            
+            {beskrivnig} {prast} {musiker}            
+         
+            </div>
         </div>
     )
 }

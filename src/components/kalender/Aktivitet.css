@@ -1,6 +1,22 @@
 .aktivitetBlock {
-    height: 50px;
     width: 100%;
     background-color: brown;
-    opacity: 0.5;
+    padding: 5px;
+}
+
+
+.tidsruta{
+    display: inline-block;
+    width: 20%;
+    background-color: beige;
+    height: 100%;
+    text-align: center;
+    float: left;
+    }
+
+.rutaTillHoger {
+    display: inline-block;
+    width: 70%;
+    background-color:olivedrab;
+    border-left: 8px solid black;
 }

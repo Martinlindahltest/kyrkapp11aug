@@ -14,10 +14,10 @@ export default function Dag(props) {
 
     return (
         <div className="dagBlock">
-            <h3>{props.vilkenDagObjekt.veckodag}</h3>
-            {
-                arrayAvAktiviteter
-                }
+            <h3 className="rubrik-vilkendag">{props.vilkenDagObjekt.veckodag} {props.vilkenDagObjekt.datum} {props.vilkenDagObjekt.manad}</h3>
+            
+            {arrayAvAktiviteter}
+            
         </div>
     )
 }
