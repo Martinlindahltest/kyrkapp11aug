@@ -17,6 +17,7 @@ export default function Aktivitet(props) {
     return (
         <div className="aktivitetBlock">
             Aktivitet
+            
         </div>
     )
 }

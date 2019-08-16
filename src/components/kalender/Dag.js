@@ -14,7 +14,7 @@ export default function Dag(props) {
 
     return (
         <div className="dagBlock">
-            <h3>{props.}</h3>
+            <h3>{props.vilkenDagObjekt.veckodag}</h3>
             {
                 arrayAvAktiviteter
                 }
