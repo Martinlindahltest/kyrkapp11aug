@@ -4,11 +4,20 @@ import './Dag.css'
 
 export default function Dag(props) {
 
-  let { datum, veckodag, titel, plats, farg, tid } = props.aktiviteter;
+   // console.log(props)
+
+
+        const arrayAvAktiviteter = props.arrayAvAktiviteter.map( objekt => {
+            return <Aktivitet dataObjekt={objekt} />
+        })
+
 
     return (
         <div className="dagBlock">
-            <div>{datum}</div>
+            <h3>{props.}</h3>
+            {
+                arrayAvAktiviteter
+                }
         </div>
     )
 }

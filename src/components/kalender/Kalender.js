@@ -25,13 +25,39 @@ const dennaManad = month[d.getMonth()];
 
 
 const testobjekt = {
+    beskrivnnig: 'detta är t.ex öppen förskola för bar n upp till 6 år',
+    prast: 'Präst Prästsson',
+    musiker: 'musiker musikersson', 
+    ovrigPersonal: 'Övrig Personal Personalsson',
     datum: 11,
     veckodag: 'tisdag',
     titel: 'komfimader',
     plats: 'tulinge gård',
     farg: 'blå',
-    tid: 11.30
+    tid: 11.30, 
+
 }
+
+const testobjekt2 = {
+    beskrivnnig: 'detta är t.ex öppen förskola för bar n upp till 7 år',
+    prast: 'jan Prästsson',
+    musiker: 'musiker musikersson', 
+    ovrigPersonal: 'Övrig Personal Personalsson',
+    datum: 14,
+    veckodag: 'fredag',
+    titel: 'komfimader',
+    plats: 'tulinge gård',
+    farg: 'röd',
+    tid: 11.30, 
+
+}
+
+const testDag = {
+    datum: 11,
+    veckodag: 'tisdag',
+    manad: 'Augusti'
+}
+const testArray = [testobjekt, testobjekt2]
 
     return (
         <div>
@@ -45,7 +71,7 @@ const testobjekt = {
                 <p className="siffror">1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 </p>
             </section>
             <section>
-                <Dag aktiviteter={testobjekt}/>
+                <Dag vilkenDagObjekt={testDag} arrayAvAktiviteter={testArray}/>
             </section>
         </div>
     )
