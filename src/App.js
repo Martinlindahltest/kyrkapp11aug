@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.css';
+
 import Undermeny from './components/undermeny/Undermeny'
 import Forstasida from './components/forstasida/Forstasida'
 import Handelser from './components/Handelser/Handelser'
 import Kalender from './components/kalender/Kalender'
 import Verksamhet from './components/Verksamhet/Verksamhet'
 import Kontakt from './components/Kontakt/Kontakt'
+
+
 
 
 
@@ -32,6 +35,7 @@ function App() {
 
 
       <Kalender />
+      <div className="bakomUndermeny"></div>
 
 
       </div>

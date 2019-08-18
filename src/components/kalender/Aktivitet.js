@@ -16,14 +16,14 @@ export default function Aktivitet(props) {
 
     return (
         <div className="aktivitetBlock">
+            <hr/>
             <div className="tidsruta">{tid}</div> 
             <div className="rutaTillHoger">
-            {beskrivnig} {prast} {musiker}  
-            {beskrivnig} {prast} {musiker}            
-            {beskrivnig} {prast} {musiker}            
-            {beskrivnig} {prast} {musiker}            
-         
+                <div className="mellanrumMellanTextOchTid"></div>
+
+                {beskrivnig} {prast} {musiker}            
             </div>
+            <hr/>
         </div>
     )
 }

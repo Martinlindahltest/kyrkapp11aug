@@ -7,7 +7,7 @@ export default function Kalender() {
 
     const d = new Date();
 
-    var month = new Array();
+    const month = new Array();
         month[0] = "Januari";
         month[1] = "Februari";
         month[2] = "Mars";
@@ -52,12 +52,50 @@ const testobjekt2 = {
 
 }
 
+const testobjekt3 = {
+    beskrivnig: 'detta är t.ex öppen förskola för bar n upp till testobjekt3 år',
+    prast: 'Präst Prästsson',
+    musiker: 'musiker musikersson', 
+    ovrigPersonal: 'Övrig Personal Personalsson',
+    datum: 11,
+    veckodag: 'tisdag',
+    titel: 'komfimader',
+    plats: 'tulinge gård',
+    farg: 'blå',
+    tid: '12.30', 
+
+}
+
+const testobjekt4 = {
+    beskrivnig: 'detta är t.ex öppen förskola för bar n upp till testobjekt4 år',
+    prast: 'jan Prästsson',
+    musiker: 'musiker musikersson', 
+    ovrigPersonal: 'Övrig Personal Personalsson',
+    datum: 14,
+    veckodag: 'fredag',
+    titel: 'komfimader',
+    plats: 'tulinge gård',
+    farg: 'röd',
+    tid: '13.30', 
+
+}
+
 const testDag = {
     datum: 11,
     veckodag: 'tisdag',
     manad: 'Augusti'
 }
+
+
+const testDag2 = {
+    datum: 15,
+    veckodag: 'lördag',
+    manad: 'Augusti'
+}
+
 const testArray = [testobjekt, testobjekt2]
+
+const testArray2 = [testobjekt3, testobjekt4]
 
     return (
         <div>
@@ -72,6 +110,9 @@ const testArray = [testobjekt, testobjekt2]
             </section>
             <section>
                 <Dag vilkenDagObjekt={testDag} arrayAvAktiviteter={testArray}/>
+                <Dag vilkenDagObjekt={testDag2} arrayAvAktiviteter={testArray2}/>
+                <Dag vilkenDagObjekt={testDag} arrayAvAktiviteter={testArray}/>
+                <Dag vilkenDagObjekt={testDag2} arrayAvAktiviteter={testArray2}/>
             </section>
         </div>
     )
